@@ -1,0 +1,250 @@
+@charset "UTF-8";
+@import url(base.css);
+
+#main {}
+#main .main-inner {
+  padding: 40px 0 80px
+}
+#main .side {
+  float: left;
+  width: 190px;/*이미지크기에 맞춤*/
+}
+#main .lnb {
+  margin-bottom: 50px;
+}
+#main .lnb a {
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.2
+}
+#main .lnb a:hover,
+#main .lnb a:focus {
+  color: #ba000c
+}
+
+#main .lnb-banner {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc
+}
+#main .lnb-banner h3 {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 10px
+}
+#main .lnb-banner p {
+  font-size: small;
+  color: #777;
+
+  line-height: 1.3;
+  text-align: justify;
+  margin-bottom: 20px
+}
+#main .member-btn {
+  text-align: center;
+}
+#main .member-btn a {
+  display: block;
+  background: #eee;
+  padding-top: 20px
+}
+#main .member-btn img {
+  height: 90px
+}
+
+/*본문 시작*/
+#main .content {
+  float: right;
+  width: 75%;
+}
+#main h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+/*  font-weight: bold*/
+}
+#main [class ^= "menu"]:not(:last-child) {
+  margin-bottom: 50px;
+}
+#main .location {
+  font-size: small;
+  color: #777;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px
+}
+#main .location a {
+  font-weight: bold
+}
+#main .location a:hover {
+  text-decoration: underline
+}
+#main .location * {
+  padding: 0 5px
+}
+
+#main h2 {
+  font-size: 50px;
+  font-weight: bold
+}
+
+#main .menu-detail .pic {
+  float: left;
+  width: 50%
+}
+#main .menu-detail .pic img {
+  width: 100%
+}
+
+#main .menu-detail .text-box {
+  float: right;
+  width: 50%;
+  padding-top: 40px
+}
+#main .menu-detail .sns {
+  margin-bottom: 10px
+}
+#main .menu-detail .sns > * {
+  float: left;
+  margin: 0 5px
+}
+
+#main .menu-detail .sns a {
+  display: block;
+}
+#main .menu-detail .sns a:hover {
+  opacity: 0.8
+}
+
+#main .menu-detail .sns img {
+  display: block;
+}
+#main .menu-detail .sns span {
+  display: inline-block;
+  background: #ba000c;
+  color: #eee;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 12px
+}
+
+#main .menu-detail h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px
+}
+#main .menu-detail h3 > span {
+  display: block;
+  font-weight: normal;
+  font-size: medium;
+  color: #777;
+  margin-top: 10px
+}
+#main .menu-detail p {
+  line-height: 1.3
+}
+
+/*성분 표*/
+#main .menu-info {
+/*  margin-top: 30px*/
+}
+#main .menu-info h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+/*  font-weight: bold*/
+}
+#main .menu-info table {
+  width: 100%;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+#main .menu-info th,
+#main .menu-info td {
+  text-align: center;
+  line-height: 40px;
+/*  padding: 20px 0;*/
+  font-size: small;
+}
+#main thead tr,
+#main .menu-info tr:not(:last-child) {
+  border-bottom: 1px solid #ddd
+}
+#main thead th:not(:last-child) {
+  border-right: 1px solid #ddd;
+}
+#main tbody td {
+  border-left: 1px solid #ddd;
+  color: #777
+}
+/*간격설정 하기*/
+#main thead th  {
+  width: 14.2857%/*100/7*/
+}
+/*간격설정 하기2*/
+#main thead th {
+  width: 15%;
+}
+#main thead th:first-child{
+  width: 10%;
+}
+
+/*추천메뉴*/
+
+#main .menu-list {
+  text-align: center;
+}
+#main .menu-list li {
+  float: left;
+  width: 18.4%
+}
+#main .menu-list li:not(:last-child) {
+  margin-right: 2%
+}
+#main .menu-list img {
+  widows: 100%;
+  transition: all 0.2s
+}
+#main .menu-list li:hover img {
+ 
+  transform: translateY(-10px)
+}
+#main .menu-list h5 {
+/*  margin-top: 5px;*/
+  padding: 0 14px;
+  line-height: 1.3;
+  letter-spacing: -0.5;
+  color: #555;
+}
+/*더보기 메뉴*/
+#main .menu-more-btn {
+  height: 67px;
+}
+#main .menu-more-btn a {
+  display: block;/*줄요소*/
+/*  width: 100%;블로 요소에만 먹음 인라인에는 안먹음*/
+  height: 100%;
+  background: url(../img/bar_more01.gif) no-repeat center center;
+  background-size: auto 100%;
+  transition: all 0.2s
+}
+#main .menu-more-btn a:hover {
+  opacity: 0.8
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

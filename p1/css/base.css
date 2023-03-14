@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@import url(reset.css);
+@import url(font.css);
+@import url(all.min.css);
+
+/*공통 스타일*/
+body {color: #333}
+
+[class $= "inner"] {
+  width: 940px;
+  height: 100%;
+  margin: auto
+}
+
+/*1 (80 + 50)*/
+#header {
+  height: 130px;
+  border-bottom: 2px solid #ba000c;
+  position: relative;
+  z-index: 1
+}
+#header .header-inner {
+  position: relative;
+  height: 80px
+}
+
+/*1 header*/
+#header .logo {
+  text-align: center;
+  padding-top: 13px
+}
+#header .logo img {
+  height: 55px
+}
+#header .util,
+#header .tnb {
+  font-size: small;
+  letter-spacing: -0.5px
+}
+#header .util {
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+#header .util a {
+  padding: 0 5px;
+  font-weight: bold
+}
+#header .util a:hover {
+  color: #ba000c; 
+}
+
+#header .tnb {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+#header .tnb a {
+  padding: 0 5px;
+  opacity: 0.7
+}
+#header .tnb a:hover {
+  opacity: 1
+}
+
+#header .gnb {
+  height: 50px;
+}
+#header .gnb-menu {
+  height: 100%;
+  line-height: 50px;
+}
+#header .gnb-menu a {
+  display: block;
+  float: left;
+/*  width: 16.6666%;*/
+  padding: 0 34.3px;
+  font-size: 20px;
+  letter-spacing: -1px;
+  text-align: center;
+/*  border-radius: 10px 10px 0 0*/
+  position: relative;
+  transition: all 0.3s
+}
+#header .gnb-menu a:hover {
+/*
+  background: #ba000c;
+  color: #fff;
+*/
+  color: #fff
+}
+#header .gnb-menu a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  
+  width: 100%;
+  height: 0%;
+  background: #ba000c;
+  border-radius: 10px 10px 0 0;
+  transition: all 0.3s
+}
+#header .gnb-menu a:hover:after {
+  height: 100%
+}
+
+/*4 footer*/
+#footer {
+  background: #ba000c;
+  font-size: small;
+  letter-spacing: -0.25px
+}
+#footer .footer-inner {
+  color: #fff;
+  padding: 40px 0;
+}
+#footer .fnb {
+  margin-bottom: 20px
+}
+#footer .fnb a {
+  display: block;
+  float: left;
+  padding: 0 20px
+}
+
+#footer .fnb a:hover {
+  color: #aaa
+}
+#footer .fnb a:not(:last-child) {
+  border-right: 1px solid #777
+}
+
+#footer address {
+  opacity: 0.7;
+  line-height: 1.5
+}
+
+/*고정 버튼 "창업설명회"*/
+.fixed-btn {
+  position: fixed;
+  z-index: 2;
+  top: 20.5px;
+  
+  left: 50%;
+  margin-left: 500px;
+  
+  width: 89px;
+  height: 89px;
+
+  border-radius: 10px;
+  overflow: hidden;
+  
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.25)
+}
+.fixed-btn a {
+  display: block;
+  opacity: 0.7;
+  transition: all 0.2s
+}
+.fixed-btn a:hover {
+  opacity: 1
+}
+
+.fixed-btn img {
+  width: 89px;
+}
+
+
+
+
+
+
+
+
+

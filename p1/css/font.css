@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: NotoR;
+  src: url(font/NotoSansKR-Regular.otf);
+}
+@font-face {
+  font-family: Play;
+  src: url(font/Play-Regular.ttf);
+}
+@font-face {
+  font-family: PlayB;
+  src: url(font/Play-Bold.ttf);
+}
+
+body {font-family: "NotoR", sans-serif}
+.en {font-family: "Play"}
+.enB {font-family: "PlayB"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
